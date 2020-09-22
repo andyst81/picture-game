@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). [Milligram CSS](https://milligram.io) was used to style the project.
 
 A random image generating game. Select the number of images you would like
 to see and press "GET IMAGES" to see the randomly selected image cards.

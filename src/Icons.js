@@ -7,10 +7,10 @@ const iconArr = ['airplane.svg', 'beach.svg', 'bear.svg', 'beer.svg', 'black-nib
 'popcorn.svg', 'rose.svg', 'saxophone.svg', 'snake.svg', 'soccer-ball.svg', 'spider.svg',
 'statue-of-liberty.svg', 'tree.svg', 't-rex.svg', 'unicorn.svg', 'video-game.svg']
 
-const ConsoleLog = ({ children }) => {
-  console.log(children);
-  return false;
-  };
+// const ConsoleLog = ({ children }) => {
+//   console.log(children);
+//   return false;
+//   };
 
 class Icons extends Component {
   state = {
@@ -29,7 +29,6 @@ class Icons extends Component {
         <form>
           <label style={{textAlign:"center"}}>How many images would you like to see? Choose a number between 1 and 8 below:</label>
           <input value={this.state.cards} type='number' id='quantity' min='1' max='8'  onChange={this.setInput('cards')} />
-          <ConsoleLog>{this.state.cards}</ConsoleLog>
         </form>
         <button className='float-right' onClick={() => {
           var value = this.state.cards
@@ -44,7 +43,6 @@ class Icons extends Component {
         <div style={{textAlign:"center"}}>
         {this.state.randArr.map(item => (
             <span key={item}>
-            <ConsoleLog>{item}</ConsoleLog>
             <img src={'/cards/'+item} alt='card icon' />
             </span>
           ))}
@@ -65,7 +63,7 @@ class Icons extends Component {
       ret.push(removed[0]);
     }
     this.setState({ randArr: ret });
-    console.log(ret)
+    // console.log(ret)
   }
 }
 

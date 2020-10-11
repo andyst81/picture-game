@@ -38,8 +38,8 @@ class Icons extends Component {
     return (
       <div className='container'>
         <form>
-          <label style={{textAlign:"center"}}>How many images would you like to see? Choose a number between 1 and 8 below:</label>
-          <input value={this.state.cards} type='number' id='quantity' min='1' max='8'  onChange={this.setInput('cards')} />
+          <label style={{textAlign:"center"}}>How many images would you like to see? Choose a number between 1 and 9 below:</label>
+          <input value={this.state.cards} type='number' id='quantity' min='1' max='9'  onChange={this.setInput('cards')} />
         </form>
         <button className='float-right' onClick={() => {
           var value = this.state.cards

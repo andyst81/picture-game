@@ -7,7 +7,6 @@ const iconArr = ['airplane.svg', 'beach.svg', 'bear.svg', 'beer.svg', 'black-nib
 'popcorn.svg', 'rose.svg', 'saxophone.svg', 'snake.svg', 'soccer-ball.svg', 'spider.svg',
 'statue-of-liberty.svg', 'tree.svg', 't-rex.svg', 'unicorn.svg', 'video-game.svg']
 
-
 const iconArrs = ['android.svg', 'bag.svg', 'bagpack.svg', 'bell.svg', 'bird.svg',
 'bowling.svg', 'box.svg', 'briefcase.svg', 'brush.svg', 'calculator.svg', 'calendar.svg',
 'camera.svg', 'camera2.svg', 'car.svg', 'card.svg', 'certificate.svg', 'chair.svg',
@@ -15,7 +14,15 @@ const iconArrs = ['android.svg', 'bag.svg', 'bagpack.svg', 'bell.svg', 'bird.svg
 'cone.svg', 'converse.svg', 'cup.svg', 'dialog.svg', 'diamond.svg', 'donut.svg',
 'earth.svg', 'eggs.svg', 'eraser.svg', 'eye.svg', 'folder.svg', 'gamepad.svg',
 'gift.svg', 'girl.svg', 'glass snowball.svg', 'headphones.svg', 'heart.svg',
-'help.svg', 'illustrator.svg', 'ipad.svg'
+'help.svg', 'illustrator.svg', 'ipad.svg', 'key.svg', 'letter.svg', 'lock.svg',
+'macbook.svg', 'magic hat.svg', 'map.svg', 'medal.svg', 'mind.svg', 'money.svg',
+'monitor.svg', 'notepad.svg', 'off.svg', 'pantone.svg', 'paper.svg', 'passport.svg',
+'patch.svg', 'pencil.svg', 'pictures.svg', 'pig.svg', 'plane.svg', 'printer.svg',
+'rocket.svg', 'sale.svg', 'search.svg', 'settings.svg', 'sheald.svg', 'shirt.svg',
+'sim.svg', 'site.svg', 'speaker.svg', 'store.svg', 'study hat.svg', 'theatre.svg',
+'thermometer.svg', 'traget.svg', 'trash.svg', 'twitter.svg', 'UFO.svg', 'umbrella.svg',
+'user.svg', 'video.svg', 'wallet.svg', 'weather.svg', 'webcam.svg', 'youtube.svg'
+
 
 ]
 // const ConsoleLog = ({ children }) => {

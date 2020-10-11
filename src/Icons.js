@@ -7,6 +7,17 @@ const iconArr = ['airplane.svg', 'beach.svg', 'bear.svg', 'beer.svg', 'black-nib
 'popcorn.svg', 'rose.svg', 'saxophone.svg', 'snake.svg', 'soccer-ball.svg', 'spider.svg',
 'statue-of-liberty.svg', 'tree.svg', 't-rex.svg', 'unicorn.svg', 'video-game.svg']
 
+
+const iconArrs = ['android.svg', 'bag.svg', 'bagpack.svg', 'bell.svg', 'bird.svg',
+'bowling.svg', 'box.svg', 'briefcase.svg', 'brush.svg', 'calculator.svg', 'calendar.svg',
+'camera.svg', 'camera2.svg', 'car.svg', 'card.svg', 'certificate.svg', 'chair.svg',
+'chart.svg', 'chemistry.svg', 'clipboard.svg', 'clock.svg', 'color.svg', 'compass.svg',
+'cone.svg', 'converse.svg', 'cup.svg', 'dialog.svg', 'diamond.svg', 'donut.svg',
+'earth.svg', 'eggs.svg', 'eraser.svg', 'eye.svg', 'folder.svg', 'gamepad.svg',
+'gift.svg', 'girl.svg', 'glass snowball.svg', 'headphones.svg', 'heart.svg',
+'help.svg', 'illustrator.svg', 'ipad.svg'
+
+]
 // const ConsoleLog = ({ children }) => {
 //   console.log(children);
 //   return false;
@@ -32,7 +43,7 @@ class Icons extends Component {
         </form>
         <button className='float-right' onClick={() => {
           var value = this.state.cards
-            this.getUnique(iconArr, value);
+            this.getUnique(iconArrs, value);
           }} >
           Get images
         </button>
@@ -43,7 +54,7 @@ class Icons extends Component {
         <div style={{textAlign:"center"}}>
         {this.state.randArr.map(item => (
             <span key={item}>
-            <img src={'/cards/'+item} alt='card icon' />
+            <img className='icon' src={'/SVG-new/'+item} alt='card icon' />
             </span>
           ))}
         </div>

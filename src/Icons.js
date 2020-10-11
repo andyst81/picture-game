@@ -1,12 +1,5 @@
 import React, { Component } from "react";
 
-const iconArr = ['airplane.svg', 'beach.svg', 'bear.svg', 'beer.svg', 'black-nib.svg',
-'blossom.svg', 'bomb.svg', 'bouquet.svg', 'cat-face.svg', 'cockroach.svg', 'coffin.svg',
-'couple.svg', 'doughnut.svg', 'film-projector.svg', 'fish.svg', 'foggy.svg', 'green-apple.svg',
-'guitar.svg', 'hamburger.svg', 'heart.svg', 'honeybee.svg', 'meal.svg', 'mount-fuji.svg',
-'popcorn.svg', 'rose.svg', 'saxophone.svg', 'snake.svg', 'soccer-ball.svg', 'spider.svg',
-'statue-of-liberty.svg', 'tree.svg', 't-rex.svg', 'unicorn.svg', 'video-game.svg']
-
 const iconArrs = ['android.svg', 'bag.svg', 'backpack.svg', 'bell.svg', 'bird.svg',
 'bowling.svg', 'box.svg', 'briefcase.svg', 'brush.svg', 'calculator.svg', 'calendar.svg',
 'camera.svg', 'camera2.svg', 'car.svg', 'card.svg', 'certificate.svg', 'chair.svg',

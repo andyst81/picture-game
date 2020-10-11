@@ -20,7 +20,7 @@ const iconArrs = ['android.svg', 'bag.svg', 'backpack.svg', 'bell.svg', 'bird.sv
 'patch.svg', 'pencil.svg', 'pictures.svg', 'pig.svg', 'plane.svg', 'printer.svg',
 'rocket.svg', 'sale.svg', 'search.svg', 'settings.svg', 'shield.svg', 'shirt.svg',
 'sim.svg', 'site.svg', 'speaker.svg', 'store.svg', 'study hat.svg', 'theatre.svg',
-'thermometer.svg', 'traget.svg', 'trash.svg', 'twitter.svg', 'UFO.svg', 'umbrella.svg',
+'thermometer.svg', 'target.svg', 'trash.svg', 'twitter.svg', 'UFO.svg', 'umbrella.svg',
 'user.svg', 'video.svg', 'wallet.svg', 'weather.svg', 'webcam.svg', 'youtube.svg'
 
 

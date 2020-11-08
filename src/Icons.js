@@ -7,7 +7,7 @@ const iconArrs = ['android.svg', 'bag.svg', 'backpack.svg', 'bell.svg', 'bird.sv
 'cone.svg', 'converse.svg', 'cup.svg', 'dialog.svg', 'diamond.svg', 'donut.svg',
 'earth.svg', 'eggs.svg', 'eraser.svg', 'eye.svg', 'folder.svg', 'gamepad.svg',
 'gift.svg', 'girl.svg', 'snowglobe.svg', 'headphones.svg', 'heart.svg',
-'help.svg', 'illustrator.svg', 'ipad.svg', 'key.svg', 'letter.svg', 'lock.svg',
+'illustrator.svg', 'ipad.svg', 'key.svg', 'letter.svg', 'lock.svg',
 'macbook.svg', 'magic hat.svg', 'map.svg', 'medal.svg', 'mind.svg', 'money.svg',
 'monitor.svg', 'notepad.svg', 'off.svg', 'pantone.svg', 'paper.svg', 'passport.svg',
 'patch.svg', 'pencil.svg', 'pictures.svg', 'pig.svg', 'plane.svg', 'printer.svg',

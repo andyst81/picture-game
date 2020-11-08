@@ -27,7 +27,7 @@ class Icons extends Component {
   state = {
     rand: '',
     randArr: [],
-    cards: 2
+    cards: 1
   };
 
   setInput = (key) => (event) => {
